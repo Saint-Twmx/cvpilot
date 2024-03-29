@@ -38,11 +38,17 @@ We present a simplified aortic valve segmentation model trained with a small amo
 
 - Note that you need to build the corresponding folder directories in nnUNet's format to execute the next two steps of training code.
     -data
+  
     --nnUNet_processed
+  
     --nnUNet_raw_data_base
+  
     ---nnUNet_cropped_data
+  
     ---nnUNet_raw_data
+  
     ----Task100
+  
     --nnUNet_result
   
 
