@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d495dce-8058-4ce4-93d3-e6c2bec30edf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/nnunet_sub/tools/determine_n_cuspid.py" beforeDir="false" afterPath="$PROJECT_DIR$/nnunet_sub/tools/determine_n_cuspid.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="7f8e45b7-b115-4333-b4c0-d44c6d4a32cd" />
+  <component name="ProjectId" id="2eImOBLsuR6hT82fx2kJcQBZwlj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nnunet_sub/tools" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\nnUNet\pythonProject\TAVIgator\nnunet_sub\tools" />
+      <recent name="D:\nnUNet\pythonProject\TAVIgator" />
+      <recent name="D:\nnUNet\pythonProject\TAVIgator\nnunet_sub" />
+      <recent name="D:\nnUNet\pythonProject\TAVIgator\nnunet_sub\training\network_training" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\nnUNet\pythonProject\TAVIgator\nnunet_sub\tools" />
+      <recent name="D:\nnUNet\pythonProject\TAVIgator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.nnUNet_inference">
+    <configuration name="model_compile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TAVIgator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/home/yuchencai/TensorRT-8.5.1.7/lib:/usr/local/cuda/lib64:$LD_LIBRARY_PATH" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_compile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nnUNet_inference (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TAVIgator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nnUNet_inference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nnUNet_inference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TAVIgator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="/home/yuchencai/TensorRT-8.5.1.7/lib:/usr/local/cuda/lib64:$LD_LIBRARY_PATH" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/segmentation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nnUNet_inference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plan_and_preprocess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TAVIgator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plan_and_preprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_nnUNet_DP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TAVIgator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+        <env name="MASTER_ADDR" value="localhost" />
+        <env name="MASTER_PORT" value="10994" />
+        <env name="WORLD_SIZE" value="1" />
+        <env name="RANK" value="0" />
+        <env name="NCCL_DEBUG" value="INFO" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_nnUNet_DP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.nnUNet_inference" />
+      <item itemvalue="Python.train_nnUNet_DP" />
+      <item itemvalue="Python.nnUNet_inference (1)" />
+      <item itemvalue="Python.model_compile" />
+      <item itemvalue="Python.plan_and_preprocess" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.nnUNet_inference" />
+        <item itemvalue="Python.model_compile" />
+        <item itemvalue="Python.plan_and_preprocess" />
+        <item itemvalue="Python.nnUNet_inference (1)" />
+        <item itemvalue="Python.train_nnUNet_DP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d495dce-8058-4ce4-93d3-e6c2bec30edf" name="Default Changelist" comment="" />
+      <created>1711600431552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711600431552</updated>
+      <workItem from="1711600432811" duration="13167000" />
+      <workItem from="1711616536737" duration="1753000" />
+      <workItem from="1711673872617" duration="936000" />
+      <workItem from="1711674874718" duration="1164000" />
+      <workItem from="1711676057269" duration="19815000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="103" y="72" width="1360" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1711674482553">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="103" y="72" width="1360" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816/1920.0.2048.1104@0.0.1536.816" timestamp="1711674482553" />
+    <state x="93" y="93" width="1350" height="630" key="DirDiffDialog" timestamp="1711703822825">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="93" y="93" width="1350" height="630" key="DirDiffDialog/0.0.1536.816/1920.0.2048.1104@0.0.1536.816" timestamp="1711703822825" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1711605056456">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.0.2048.1104@0.0.1536.816" timestamp="1711605056456" />
+    <state width="1493" height="189" key="GridCell.Tab.0.bottom" timestamp="1711703998276">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="189" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.0.2048.1104@0.0.1536.816" timestamp="1711703998276" />
+    <state width="1493" height="189" key="GridCell.Tab.0.center" timestamp="1711703998275">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="189" key="GridCell.Tab.0.center/0.0.1536.816/1920.0.2048.1104@0.0.1536.816" timestamp="1711703998275" />
+    <state width="1493" height="189" key="GridCell.Tab.0.left" timestamp="1711703998275">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="189" key="GridCell.Tab.0.left/0.0.1536.816/1920.0.2048.1104@0.0.1536.816" timestamp="1711703998275" />
+    <state width="1493" height="189" key="GridCell.Tab.0.right" timestamp="1711703998275">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="189" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.2048.1104@0.0.1536.816" timestamp="1711703998275" />
+    <state x="270" y="52" key="SettingsEditor" timestamp="1711612331332">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="270" y="52" key="SettingsEditor/0.0.1536.816/1920.0.2048.1104@0.0.1536.816" timestamp="1711612331332" />
+    <state x="491" y="97" width="856" height="536" key="find.popup" timestamp="1711680736425">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="491" y="97" width="856" height="536" key="find.popup/0.0.1536.816/1920.0.2048.1104@0.0.1536.816" timestamp="1711680736425" />
+    <state x="664" y="138" width="434" height="539" key="ftp.server.browser" timestamp="1711614733349">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="664" y="138" width="434" height="539" key="ftp.server.browser/0.0.1536.816/1920.0.2048.1104@0.0.1536.816" timestamp="1711614733349" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2020.2/remote_sources/-2090825328/-706762540/nnunet/run/default_configuration.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nnunet_sub/run/default_configuration.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nnUNet_inference.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nnUNet_inference.py</url>
+          <line>193</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nnUNet_inference.py</url>
+          <line>190</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plan_and_preprocess.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plan_and_preprocess.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run_training.py</url>
+          <line>234</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nnUNet_inference.py</url>
+          <line>189</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nnunet_sub/tools/determine_n_cuspid.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TAVIgator$model_compile.coverage" NAME="model_compile Coverage Results" MODIFIED="1711694213163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TAVIgator$plan_and_preprocess.coverage" NAME="plan_and_preprocess Coverage Results" MODIFIED="1711681422225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TAVIgator$nnUNet_inference__1_.coverage" NAME="nnUNet_inference (1) Coverage Results" MODIFIED="1711616966473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TAVIgator$train_nnUNet_DP.coverage" NAME="train_nnUNet_DP Coverage Results" MODIFIED="1711614252840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TAVIgator$nnUNet_inference.coverage" NAME="nnUNet_inference Coverage Results" MODIFIED="1711703998259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
+  </component>
+</project>

@@ -65,7 +65,7 @@ def resegment_cuspid(iso_pred):
     aro_points = torch.nonzero(torch.from_numpy((iso_pred == 7)))
     dis = calculate_points_distance_torch(torch.mean(root_point.type(torch.float32),dim=0).unsqueeze(0),
                                           aro_points)
-    values_below_threshold = (dis < torch.mean(dis)/4)
+    values_below_threshold = (dis < torch.mean(dis)/3.5)
     need_aro_points = aro_points[values_below_threshold[0]]
     tmp_l = len(root_point)
     root_point =  torch.cat((root_point, need_aro_points))
