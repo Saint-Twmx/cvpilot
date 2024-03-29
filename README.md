@@ -23,7 +23,7 @@ We present a simplified aortic valve segmentation model trained with a small amo
 
 - We combine machine learning, neural network learning, and traditional algorithms to achieve innovation in solving two-valve and three-valve label mixing and boundary blurring problems, such as aortic valve segmentation.
 
-- We offer a simple solution for dealing with Aortic Valve's second division, as well as a more efficient but more complex solution framework to provide mutual learning.
+- We offer a simple solution for dealing with Aortic Valve's quadratic segmentation, as well as a more efficient but more complex solution framework to provide mutual learning.
 
 
 # Using TAVIgator
