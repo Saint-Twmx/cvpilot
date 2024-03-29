@@ -37,6 +37,7 @@ We present a simplified aortic valve segmentation model trained with a small amo
 - Next you can run the training code by executing the step "python39 run training.py 3d_fullres nnUNetTrainerV2 100 all".
 
 - Note that you need to build the corresponding folder directories in nnUNet's format to execute the next two steps of training code.
+  
     -data
   
     --nnUNet_processed
