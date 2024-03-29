@@ -7,10 +7,14 @@ We have conducted some study and validation on Aortic Valve based on the nnUNet 
 A total of 183 retrospective patients subjected to CTA of the aorta were included in this study. The mean age of the patients was 69.3 ± 8.4 years; 107 patients (58.5%) were male and 76 patients (41.5%) were female.
 The obtained training result metrics are as follows:
 
-![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/a9dbb075-9dd4-4d04-ab30-e6bb9f52970b)
-![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/d0ca95c1-37f5-45fd-ba69-7e0c695c2aed)
-![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/c43a0c66-2b4e-4283-8bb1-0022c0a4c93b)
-![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/8c89dedf-a559-4a77-9741-65c0e29500e2)
+![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/94b9a363-b215-44c6-93f1-49ec0ff6352e)
+![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/7c8ea41a-d610-473b-b54a-44ed5c425412)
+![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/823cdccb-f569-40e8-b8a5-2431ee9e76f7)
+![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/3ce2fed8-27a2-47b1-b511-1cb2b720a44e)
+
+
+
+
 
 We present a simplified aortic valve segmentation model trained with a small amount of test data.
 
@@ -38,4 +42,4 @@ We present a simplified aortic valve segmentation model trained with a small amo
 
 - Next you need to modify the file_name in "nnUNet_inference.py" to specify the name of the file you want to splitl.
 
-- Run "nnUNet_inference.py" and you will get a partition file with the same name in the "./D:\nnUNet\pythonProject\TAVIgator\output "directory.
+- Run "nnUNet_inference.py" and you will get a partition file with the same name in the "./TAVIgator/output "directory.
