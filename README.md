@@ -30,7 +30,7 @@ We present a simplified aortic valve segmentation model trained with a small amo
 
 - First of all, the test environment of the code is based on python3.9.  You can then install some dependencies such as pytorch with pip install -r requirements.txt. 
 
-- Next, you can partition the model directly by running the "nnUNet_inference.py" file, and using the model we provided.
+- Next, you can perform segmentation directly on the model by running the "nnUNet_inference.py" file and utilizing the models we provide.
 
 - After installation, you can activate the training test data we prepared by using the step "python3 plan_and_preprocess.py -t 100". 
 
