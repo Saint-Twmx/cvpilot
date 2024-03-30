@@ -1,5 +1,5 @@
 
-# TAVIgator
+# Cvpilot
 The code mainly uses the nnUNet framework
 https://github.com/MIC-DKFZ/nnUNet
 
@@ -12,14 +12,10 @@ The obtained training result metrics are as follows:
 ![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/823cdccb-f569-40e8-b8a5-2431ee9e76f7)
 ![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/3ce2fed8-27a2-47b1-b511-1cb2b720a44e)
 
-
-
-
-
 We present a simplified aortic valve segmentation model trained with a small amount of test data.
 
-# highlight
 
+# highlight
 
 - We combine machine learning, neural network learning, and traditional algorithms to achieve innovation in solving two-valve and three-valve label mixing and boundary blurring problems, such as aortic valve segmentation.
 
@@ -38,12 +34,12 @@ We present a simplified aortic valve segmentation model trained with a small amo
 
 - Note that you need to build the corresponding folder directories in nnUNet's format in order to execute the above two steps of training code.
   
-    -data
-  
-    --nnUNet_processed
-  
-    --nnUNet_raw_data_base
-  
+    |-data
+    |
+    |--nnUNet_processed
+    |
+    |--nnUNet_raw_data_base
+      |
     ---nnUNet_cropped_data
   
     ---nnUNet_raw_data
