@@ -1,58 +1,93 @@
+# Welcome to the new Cvpilot!
+The original version of the model, **cvpilotV1**, was focused on measurements related to the aortic valve.  
+In the updated version, we have extended the model to include additional cardiac structures, particularly the mitral valve.  
+Click [here](https://github.com/Saint-Twmx/cvpilot/tree/cvpilotV1) if you were looking for the old one instead.
+ 
+## Data Expansion and Annotation
+We recognize that increasing the amount of data can improve the model's generalization ability.  
+To achieve this, we expanded the dataset for the left heart structure and provided more detailed annotations for the mitral valve and related results.  
+We used CTA data from 1,583 patients for comprehensive annotation and model training.
 
-# Cvpilot
-The code mainly uses the nnUNet framework
-https://github.com/MIC-DKFZ/nnUNet
+## Segmentation Model Training
+We trained a U-Net based segmentation model to segment cardiac structures, with a focus on the mitral valve in the left heart.  
+The training and inference code can be found at [MedNeXt](https://github.com/MIC-DKFZ/MedNeXt).
+ 
+# Model Training
+We utilized the MedNeXt framework and tested the results under S3, S5, B3, B5, and M3 models respectively. Here, we provide the results obtained from training on a partial dataset using the S3 model, which achieved relatively high DICE scores.
 
-We have conducted some study and validation on Aortic Valve based on the nnUNet code framework.
-A total of 183 retrospective patients subjected to CTA of the aorta were included in this study. The mean age of the patients was 69.3 ± 8.4 years; 107 patients (58.5%) were male and 76 patients (41.5%) were female.
-The obtained training result metrics are as follows:
+![Description of the image](pic/20240722150404.png)
+![Description of the image](pic/progress.png)
 
-![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/94b9a363-b215-44c6-93f1-49ec0ff6352e)
-![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/7c8ea41a-d610-473b-b54a-44ed5c425412)
-![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/823cdccb-f569-40e8-b8a5-2431ee9e76f7)
-![image](https://github.com/Saint-Twmx/TAVIgator/assets/165255758/3ce2fed8-27a2-47b1-b511-1cb2b720a44e)
+The DICE values for both the anterior and posterior mitral valve leaflets exceed 0.85.
 
-We present a simplified aortic valve segmentation model trained with a small amount of test data.
+# Segmentation Capabilities
+Our network successfully segments a wide range of cardiac structures, including but not limited to:
+- Aorta
+- Aortic valve
+- Right atrium
+- Left ventricle
+- Left ventricular myocardium
+- Papillary muscles
+- Left atrium
+- Anterior mitral valve leaflet
+- Posterior mitral valve leaflet
+- Left and right coronary arteries
+- Left circumflex artery
+- Coronary sinus
+- Calcifications
+
+![Description of the image](pic/p5.png)
 
 
-# highlight
+# Release
+We have made public the following components:
 
-- We combine machine learning, neural network learning, and traditional algorithms to achieve innovation in solving two-valve and three-valve label mixing and boundary blurring problems, such as aortic valve segmentation.
+1.Measurement and Calculation Framework: A comprehensive codebase for various cardiac measurements.
 
-- We offer a simple solution for dealing with Aortic Valve's quadratic segmentation, as well as a more efficient but more complex solution framework to provide mutual learning.
+2.Diverse Measurement Algorithms: Implementations for calculating a wide range of metrics, including but not limited to:
+- Annulus dimensions
+- Anteroposterior (AP) diameter
+- Commissure-to-commissure (CC) diameter
+- Tenting height (TH)
+- Leaflet lengths
+- Left atrial analysis
+- Papillary muscle analysis
 
+![Description of the image](pic/p7.png) 
+![Description of the image](pic/p9.png)
 
-# Using TAVIgator
+These tools provide a solid foundation for advanced mitral valve analysis in medical imaging.
 
-- First of all, the test environment of the code is based on python3.9.  You can then install some dependencies such as pytorch with pip install -r requirements.txt. 
+# Prerequisites
+- Python 3.12
 
-- Next, you can perform segmentation directly on the model by running the "nnUNet_inference.py" file and utilizing the models we provide.
+# Installation
+1.Clone the repository:
+```
+git clone https://github.com/Saint-Twmx/mitral
+cd mitralvalve-project
+```
 
-- After installation, you can activate the training test data we prepared by using the step "python3 plan_and_preprocess.py -t 100". 
+2.Set up the environment:
+```
+python setup.py install
+```
+This will automatically install all required dependencies.
 
-- Next you can run the training code by executing the step "python39 run training.py 3d_fullres nnUNetTrainerV2 100 all".
+# Running the Project
+1.Place your test data in the input folder within the project directory.
+2.Run the main script:
+```
+python run.py
+```
+3.The script will automatically:
+- Read test data from the input folder
+- Perform segmentation
+- Conduct measurements
+- Save results back to the input folder
 
-- Note that you need to build the corresponding folder directories in nnUNet's format in order to execute the above two steps of training code.
-  
-    -data
-    
-    --nnUNet_processed
-    
-    --nnUNet_raw_data_base
-  
-    ---nnUNet_cropped_data
-  
-    ---nnUNet_raw_data
-  
-    ----Task100
-  
-    --nnUNet_result
-  
-
-# How to segment your dats
-
-- You need to put your CT data in the "./TAVIgator/input "directory, it can be an nrrd、nii.gz file,also it can be a dicom folder.
-
-- Next you need to modify the file_name in "nnUNet_inference.py" to specify the name of the file you want to splitl.
-
-- Run "nnUNet_inference.py" and you will get a partition file with the same name in the "./TAVIgator/output "directory.
+# Output
+After running the script, you can find the following in the input folder:
+- Segmentation results
+- Measurement data
+- Any other output generated by the pipeline
