@@ -38,6 +38,6 @@ def main(root_path, file_name, sampling=1) -> NoReturn:
 
     model_path = os.path.join(root_path, "model")
 
-    pred = serial_infer(array, "CPU", model_path)
+    pred = serial_infer(array,"CPU", model_path)
 
     handle_save_array(os.path.join(root_path, "output", file_name), pred, informat)

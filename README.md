@@ -13,7 +13,7 @@ We trained a U-Net based segmentation model to segment cardiac structures, with 
 The training and inference code can be found at [MedNeXt](https://github.com/MIC-DKFZ/MedNeXt).
  
 # Model Training
-We utilized the MedNeXt framework and tested the results under S3, S5, B3, B5, and M3 models respectively. Here, we provide the results obtained from training on a partial dataset using the S3 model, which achieved relatively high DICE scores.
+We utilized the MedNeXt framework and tested the results under S3, S5, B3, B5, and M3 models respectively. Here, we provide the results obtained from training on a partial dataset using the M3 model, which achieved relatively high DICE scores.
 
 ![Description of the image](pic/20240722150404.png)
 ![Description of the image](pic/progress.png)

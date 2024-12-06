@@ -14,7 +14,7 @@ def main():
     pred, head = get_info_with_sitk_nrrd(
         os.path.join(
             os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "output",
-            "output.nrrd"
+            "Demo.nii.gz"
         )
     )
     if not isinstance(pred, np.ndarray):

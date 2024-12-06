@@ -291,7 +291,7 @@ class netmodel():
         self.num_classes = len(pkl_data["plans"]["all_classes"]) + 1
         self.use_nonzero_mask = pkl_data["plans"]["use_mask_for_norm"]
         self.intensityproperties = pkl_data["plans"]["dataset_properties"]["intensityproperties"]
-        self.patch_size = pkl_data["plans"]["plans_per_stage"][1]["patch_size"].tolist()
+        self.patch_size = [80,160,160]
         del pkl_data
         gc.collect()
 
