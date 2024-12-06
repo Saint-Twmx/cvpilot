@@ -6,7 +6,7 @@ Click [here](https://github.com/Saint-Twmx/cvpilot/tree/cvpilotV1) if you were l
 ## Data Expansion and Annotation
 We recognize that increasing the amount of data can improve the model's generalization ability.  
 To achieve this, we expanded the dataset for the left heart structure and provided more detailed annotations for the mitral valve and related results.  
-We used CTA data from 1,583 patients for comprehensive annotation and model training.
+We used CTA data from 1,283 patients for comprehensive annotation and model training.
 
 ## Segmentation Model Training
 We trained a U-Net based segmentation model to segment cardiac structures, with a focus on the mitral valve in the left heart.  
